@@ -1,1 +1,14 @@
 A collection of professional, reusable Luau modules designed to improve game stability, security, and UI polish. This toolkit provides a solid foundation for scalable Roblox projects, handling everything from secure networking to state management.
+
+Module Included:
+
+NetworkHandler.lua: Secure wrapper for RemoteEvents. Centralizes validation to prevent exploits.
+
+DataService.lua: Robust DataStore persistence. Includes pcall error handling and default data initialization.
+
+PlayerStateController.lua: OOP-based state manager for handling player roles (Lobby/InGame/Spectating).
+
+UIAnimator.lua: Fluid animation helper using TweenService for modern UI interactions.
+
+Usage:
+Simply require these modules in your server or client scripts to access pre-built, production-ready functionality.
